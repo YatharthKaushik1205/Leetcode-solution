@@ -12,9 +12,9 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
                 arr[0]=i;
                 arr[1]=j;
                 *returnSize = 2;
-                
+                return arr;
             }
         }
     }
-    return arr;
+    return NULL;
 }
